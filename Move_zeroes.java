@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Move_zeroes {
     public static void main(String[] args) {
@@ -17,9 +17,11 @@ public class Move_zeroes {
                  Ar[sum++]=0;//System.out.println(Ar[i]+"");
                  //
                  }
-             for(int m=0;m<n;m++){System.out.println(Ar[m]+"");}
-             }
+
+            //for(int m=0;m<n;m++){System.out.println(Ar[m]+"");}
 
 
+    //Arrays.sort(Ar);
+        System.out.println(Arrays.toString(Ar));}
 
 }
